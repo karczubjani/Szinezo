@@ -1,0 +1,77 @@
+html, body{
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 1500px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  align-items: center;
+}
+
+.container{
+  width: 900px;
+  margin-left: 50px;
+  margin-right: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.buttons-div{
+  height: 400px;
+  width: 300px;
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid;
+  padding: 20px;
+}
+
+.display-div{
+  height: 400px;
+  width: 300px;
+  border: 1px solid;
+}
+
+button{
+  width: 150px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.blue{
+  background-color: blue;
+  color: white
+}
+
+.green{
+  color: white;
+  background-color: green;
+}
+
+.red{
+  color: white;
+  background-color: red;
+}
+
+.orange{
+  color: white;
+  background-color: orange;
+}
+
+.purple{
+  color: white;
+  background-color: purple;
+}
