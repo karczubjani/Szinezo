@@ -17,4 +17,5 @@ function Buttons({setColor}) {
   );
 }
 
+
 export default Buttons;

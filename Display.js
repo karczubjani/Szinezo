@@ -8,4 +8,5 @@ function Display({color}) {
   );
 }
 
+
 export default Display;
